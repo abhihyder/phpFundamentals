@@ -21,6 +21,10 @@ echo "</br>";
 
 echo "<hr></hr>"; //border
 
+
+
+
+
 // assignment operators
 //  =  +=  -=  *=  /=  %=
 $x=15; //$x= 15
@@ -53,6 +57,10 @@ echo $x5;
 echo "</br>";
 
 echo "<hr></hr>"; //border
+
+
+
+
 
 // Comparison operators
 
@@ -87,6 +95,11 @@ echo "</br>";
 
 echo "<hr></hr>"; //border
 
+
+
+
+
+
 //increment/decrement operator
 
 $i=30;
@@ -108,6 +121,95 @@ echo "</br>";
 
 echo "<hr></hr>"; //border
 
+
+
+
+
+
 //Logical operator
+            
+$lgcl=10;
+$lgcl2=15;
+$lgcl3=20;
+
+
+// for "and" operator, condition will be execute whene all conditions are true.
+//"and" and "&&" are same things.
+if($lgcl==10 and $lgcl2==15 and $lgcl3==20){ 
+
+    echo "All conditions true.";
+}else{
+    echo "Condition false";
+
+}
+echo"</br>";
+
+//for "or" operator, condition will be execute whene minimum one condition is true out of all
+// "or" and "||" are same things.
+if($lgcl==10 or $lgcl2==12 or $lgcl3==22){
+
+    echo "Minimum One condition true out of all conditions.";
+}else{
+    echo "All conditions false";
+
+}
+echo"</br>";
+
+//for "xor" operator, condition will be execute whene one condition is false out of two
+if($lgcl==10 xor $lgcl2==15){
+
+    echo "One condition false out of two.";
+}else{
+    echo "One condition is not false out of two";
+
+}
+echo"</br>";
+
+//for "!==" (not equal) operator, condition will be execute whene value is not equle.
+if($lgcl!==10){
+
+    echo "Value is not equal.";
+}else{
+    echo "Value equal";
+
+}
+
+echo "<hr></hr>"; //border
+
+
+
+
+
+//String operstors
+
+$strng="I am ";
+$strng2="learning PHP";
+ echo $strng.$strng2; //concatenation operator
+echo "</br>";
+
+$strng3="I wanna ";
+$strng4="learn Laravel";
+$strng3 .=$strng4;
+ echo $strng3; //Concatenation assignment operator
+
+ echo "<hr></hr>"; //border
+
+
+
+
+
+
+//Array operators
+$array1= array( "a"=> "Abhi", "b"=> "Tofayel");//"a" is array key and "Abhi" is key value
+$array2= array( "c"=> "Dhaka", "d"=> "Chandpur");
+
+var_dump($array1+$array2); //union operator. value will be print randomlly
+echo "</br>";
+ var_dump($array1==$array2); //equality operator,  return true if array key and key value are equal.
+
+echo "</br>";
+ var_dump($array1!=$array2); // not equal operator,  return true if array key and key value are not equal.
+ //"==", "!=" and "<>" all are same things.
+
 
 ?>
