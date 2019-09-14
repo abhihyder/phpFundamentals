@@ -78,170 +78,29 @@ echo $aaa;
 
 echo "<hr></hr>";
 
+
+
+
+
+
+
+
+//------------------------------------------
+
+//Multipication
+$xyz=1;
+
+for($mltnmbr=1; $mltnmbr<=20; $mltnmbr++){
+
+    echo "Multipication of ".$mltnmbr."</br>";
+
+    for($mlt=1; $mlt<=10; $mlt++){
+        echo $xyz."x".$mlt."=". $xyz*$mlt."</br>";
+
+    }
+    echo "*** </br>";
+    $xyz+=1;
+}
+
+
 ?>
-
-
-
-
-
-
-<div>
-    <div style=" width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $a1=1;
-        $a2=1;
-        while($a2<=10){
-            echo $a1."x".$a2."=".$a1*$a2."</br>";
-            $a2++;
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-
-    <div style="width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $a3=1;
-        
-        for($a4=1; $a4<=10; $a4++){
-            echo $a3."x".$a4."=".$a3*$a4."</br>";
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-</div>
-
-
-
-
-<div>
-    <div style=" width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $b1=2;
-        $b2=1;
-        while($b2<=10){
-            echo $b1."x".$b2."=".$b1*$b2."</br>";
-            $b2++;
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-
-    <div style="width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $b3=2;
-        
-        for($b4=1; $b4<=10; $b4++){
-            echo $b3."x".$b4."=".$b3*$b4."</br>";
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-</div>
-
-
-
-
-
-<div>
-    <div style=" width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $c1=3;
-        $c2=1;
-        while($c2<=10){
-            echo $c1."x".$c2."=".$c1*$c2."</br>";
-            $c2++;
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-
-    <div style="width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $c3=3;
-        
-        for($c4=1; $c4<=10; $c4++){
-            echo $c3."x".$c4."=".$c3*$c4."</br>";
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-</div>
-
-
-
-
-
-<div>
-    <div style=" width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $d1=4;
-        $d2=1;
-        while($d2<=10){
-            echo $d1."x".$d2."=".$d1*$d2."</br>";
-            $d2++;
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-        ?>
-    </div>
-
-    <div style="width: 50%; float:left; margin: 0 auto">
-        <?php
-        //-------------------------------------
-        // Multiplication of 1 to 20
-
-        $d3=4;
-        
-        for($d4=1; $d4<=10; $d4++){
-            echo $d3."x".$d4."=".$d3*$d4."</br>";
-        }
-            echo "****";
-
-        echo "<hr></hr>";
-
-
-        // continue .......................
-        ?>
-    </div>
-</div>
