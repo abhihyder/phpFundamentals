@@ -66,4 +66,34 @@
         echo higherAcademy ("NUB", "2017-2019");
 
 
+        echo "<hr></hr>";
+
+
+
+
+
+
+
+        
+    //---------------------------------
+    /*
+    sum by function
+
+    */
+    function sum($x,$y){
+        $z=$x+$y;
+        return $z;
+
+    }
+        echo "10+12=".sum(10,12)."</br>";
+
+    //or
+    function sum2(){
+        $x=20;
+        $y=30;
+        return $x+$y;
+
+    }
+        echo "20+30=".sum2(); 
+
 ?>
