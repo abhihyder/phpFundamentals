@@ -34,7 +34,7 @@ echo "<hr></hr>";
 // serise sum 1+2+3+......+n by while loop
 $x=1;
 $i=2;
-while($i<=1000){
+while($i<=1000){    //here upto 1000
     $x=$x+$i;
     $i++;
 }
@@ -45,7 +45,7 @@ echo "<hr></hr>";
 // serise sum 1+2+3+.....+n by for loop
 
 $a=1;
-for($k=2; $k<=1000; $k++){
+for($k=2; $k<=1000; $k++){    //here upto 1000
     $a=$a+$k;
 }
 echo $a;
@@ -60,7 +60,7 @@ echo "<hr></hr>";
 // serise sum 1+3+5+......+n by while loop
 $xx=1;
 $ii=3;
-while($ii<=1001){
+while($ii<=1001){    //here upto 1001
     $xx=$xx+$ii;
     $ii+=2;
 }
@@ -71,7 +71,7 @@ echo "<hr></hr>";
 // serise sum 1+3+5+.....+n by for loop
 
 $aa=1;
-for($kk=3; $kk<=1001; $kk+=2){
+for($kk=3; $kk<=1001; $kk+=2){    //here upto 1001
     $aa=$aa+$kk;
 }
 echo $aa;
@@ -80,16 +80,37 @@ echo "<hr></hr>";
 
 
 
+
+
+//----------------------------------------------------
 // serise sum 2+4+6+.....+n by for loop
 
 $aaa=2;
-for($kkk=4; $kkk<=1000; $kkk+=2){
+for($kkk=4; $kkk<=1000; $kkk+=2){  //here upto 1000
     $aaa=$aaa+$kkk;
 }
 echo $aaa;
 
 echo "<hr></hr>";
 
+
+
+
+
+
+
+
+//-----------------------------------------------
+
+// serise sum 1+2+4+8+16.....+n by for loop
+
+$xi=0;
+for($iv=1; $iv<=16; $iv*=2){     // here up to 16
+    $xi=$xi+$iv;
+}
+echo $xi;
+
+echo "<hr></hr>";
 
 
 
