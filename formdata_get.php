@@ -10,6 +10,7 @@
  
  
  
+    // $_REQUEST[] also can use as alternet of $_GET[].
 
  
 

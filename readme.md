@@ -13,7 +13,8 @@
 * odd number/even number
 * series sum 1+2+3+......+n
 * series sum 1+3+5+......+n
-* series sum 2+4+6......+n
+* series sum 2+4+6.......+n
+* series sum 1+2+4+8.....+n
 * multiplication by nested loops
 
 ## Conditional Statements
@@ -33,6 +34,22 @@
 * boolean
 * array
 * object
+
+## Formdata_get
+
+* how to catch GET method data
+
+## Formdata_post
+
+* how to catch POST method data
+
+## Functions
+
+* basic function creation
+
+## Get
+
+* form with GET method
 
 ## Loops
 
@@ -56,6 +73,17 @@
 * string
 * array
 
+## Post
+
+* form with POST method
+
+## Sorting array
+
+* sort array value
+* reverse sort array value
+* sort associative array by key values
+* sort associative array keys order
+
 ## String
 
 * string length
@@ -64,6 +92,17 @@
 * string position
 * string replace
 
+## Superglobals
+
+* GLOBALS
+* SERVER
+
 ## Switch statement
 
 * syntex
+
+## Variablescope
+
+* local variable
+* global variable
+
