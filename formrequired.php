@@ -15,7 +15,7 @@ https://www.w3schools.com/php/php_form_required.asp
 </style>
 
 <?php 
-    // Difide variables and ser empty 
+    // Difide variables and set as empty 
     $nameErr=  $emailErr= $websiteErr= $genderErr= " ";
     $name= $email= $website= $comment= $gender= " ";
 

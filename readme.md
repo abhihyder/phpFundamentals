@@ -43,6 +43,14 @@
 
 * how to catch POST method data
 
+## Form Required
+
+* example of form required
+
+## Form Validation
+
+* example of form validation
+
 ## Functions
 
 * basic function creation
