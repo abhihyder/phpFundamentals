@@ -7,7 +7,7 @@
 
 
     <input type="submit" value="Submit">
- <!--     after click on the "submit" all user data will transfer to formdata.php or custom.php(if i mention other custom file).
+ <!--     after click on the "submit" all user data will transfer to formdata_post.php or custom.php(if i mention other custom file).
     so let's open the formdata.php file.
      -->
  </form>
