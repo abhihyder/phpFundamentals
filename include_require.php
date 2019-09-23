@@ -13,7 +13,7 @@ Including files is very useful when you want to include the same PHP, HTML, or t
 
 //when "customfile.php" will not exist, "include" will only produce a warning (E_WARNING) and the script will continue
 
- include "customfile.php";
+ include "customFile.php";
 ?>
 
 <div id="content">
