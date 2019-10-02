@@ -9,6 +9,6 @@
 
     //define(name, value, case_sensitive );
     define("constant_name", "I am learning PHP.", false);
-     //or define("constant", "I am learning PHP.", true); if case_sensitive
+     //or define("constant", "I am learning PHP."); if case_sensitive
     echo constant_name; //not echo Constant_name;
 ?>
