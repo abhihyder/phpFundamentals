@@ -16,8 +16,8 @@ https://www.w3schools.com/php/php_form_required.asp
 
 <?php 
     // Difide variables and set as empty 
-    $nameErr=  $emailErr= $websiteErr= $genderErr= " ";
-    $name= $email= $website= $comment= $gender= " ";
+    $nameErr=  $emailErr= $websiteErr= $genderErr= $passErr= " ";
+    $name= $email= $website= $comment= $gender= $pass= " ";
 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
        
@@ -65,7 +65,15 @@ https://www.w3schools.com/php/php_form_required.asp
             $gender=validation($_REQUEST['gender']);
         }
 
-       
+        
+        if(empty($_REQUEST['password'])){
+            $passErr="Password required";
+        }else{
+            $pass=validation($_REQUEST['password']);
+            if (!preg_match('/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{8,12}$/', $pass)) {
+                $passErr = "The password does not meet the requirements!";
+              }
+        }
 
     }
 
